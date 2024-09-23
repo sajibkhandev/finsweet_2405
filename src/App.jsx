@@ -4,6 +4,8 @@ import Button from './components/Button'
 import Container from './components/Container'
 import Navber from './Layouts/Navber'
 import Banner from './Layouts/Banner'
+import Work from './Layouts/Work'
+import Project from './Layouts/Project'
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
 
     <Navber/>
     <Banner/>
+    <Work/>
+    <Project/>
    
     </>
   )
