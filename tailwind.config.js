@@ -16,6 +16,9 @@ export default {
       },
       width: {
         'container': '1280px',
+      },
+      spacing: {
+        '128': '128px',
       }
   
     },
