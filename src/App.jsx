@@ -8,6 +8,7 @@ import Work from './Layouts/Work'
 import Project from './Layouts/Project'
 import FaqSection from './Layouts/FaqSection'
 import Contact from './Layouts/Contact'
+import Foter from './Layouts/Foter'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
     <Project/>
     <FaqSection/>
     <Contact/>
+    <Foter/>
    
    
     </>
