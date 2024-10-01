@@ -4,6 +4,7 @@ import Flex from '../components/Flex'
 import Logo from '../assets/logo.png'
 import List from '../components/List'
 import Button from '../components/Button'
+import { Link } from 'react-router-dom'
 
 const Navber = () => {
   return (
@@ -11,13 +12,13 @@ const Navber = () => {
         <Container>
             <Flex className='items-center'>
                 <div className='w-[35%]'>
-                    <img src={Logo} alt="" />
+                   <Link to='/'> <img src={Logo} alt="" /></Link>
                 </div>
                 <div className='w-[50%]'>
                     <List/>
                 </div>
                 <div className='w-[15%]'>
-                    <Button text="Contact us"/>
+                    <Link to='/contact'> <Button text="Contact us"/></Link>
                 </div>
 
             </Flex>
