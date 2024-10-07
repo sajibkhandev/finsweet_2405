@@ -10,18 +10,18 @@ const Project = () => {
   return (
     <section className='py-[128px]'>
         <Container>
-            <Flex className='justify-between'>
-                <h2 className='text-5xl text-[#282938] font-pop font-semibold'>View our projects</h2>
+            <Flex className='!block md:justify-between md:!flex px-2.5 md:px-0'>
+                <h2 className='text-[28px] md:text-5xl text-[#282938] font-pop font-semibold'>View our projects</h2>
                 <div className='flex items-center gap-x-4'>
                     <h4 className='text-[#282938] text-base font-medium font-pop '>View More</h4>
                     <FaArrowRightLong/>
                 </div>
             </Flex>
 
-            <Flex >
-                <div className='w-8/12 relative group/main mt-14'>
-                <img src={Project1} alt="" />
-                <div className='hidden group-hover/main:block group-hover/main:w-[52%]  w-[0px] h-full bg-gradient-to-r from-[#6F7CA1] to-[#363766] opacity-85 absolute top-0 left-0 pt-[312px] px-12'>
+            <Flex className='!block md:!flex'>
+                <div className='md:w-8/12 relative group/main mt-14'>
+                <img className='px-5 md:px-0' src={Project1} alt="" />
+                <div className='hidden md:group-hover/main:block group-hover/main:w-[52%]  w-[0px] h-full bg-gradient-to-r from-[#6F7CA1] to-[#363766] opacity-85 absolute top-0 left-0 pt-[312px] px-12'>
 
                     <h4 className='text-3xl text-white font-pop font-medium w-[313px]'>Workhub office Webflow Webflow Design</h4>
                     <p className='text-base text-white font-pop font-medium w-[278px] pt-10'>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
@@ -32,9 +32,9 @@ const Project = () => {
 
 
                 </div>
-                <div className='w-4/12 flex flex-col justify-between items-center mt-14'>
-                <img src={Project2} alt="" />
-                <img src={Project3} alt="" />
+                <div className='md:w-4/12 flex flex-col justify-between items-center md:mt-14'>
+                <img className='px-5 py-3 md:px-0 md:py-0' src={Project2} alt="" />
+                <img className='px-5 py-3 md:px-0 md:py-0' src={Project3} alt="" />
                 </div>
             </Flex>
         </Container>
