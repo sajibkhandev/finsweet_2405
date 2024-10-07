@@ -14,7 +14,7 @@ export default {
         'pop': ["Poppins"],
         
       },
-      width: {
+      maxWidth: {
         'container': '1280px',
       },
       spacing: {
